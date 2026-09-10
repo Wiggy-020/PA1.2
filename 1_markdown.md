@@ -7,8 +7,12 @@ Here is the example to replicate:
 
 ![Markdown example](https://github.com/TUDelft-MUDE/source-files/raw/main/file/markdown_example.png)
 
-% WRITE YOUR MARKDOWN HERE
-
+```python
+# This is a comment
+name = "MUDE student Wieger"
+age = 23
+print(f"Hello, my name is {name} and I am {age} years old.")
+```
 
 ## Task 2 Open rendered markdown preview
 
@@ -20,7 +24,12 @@ Now try to replicate the following markdown table (you can copy-paste the star e
 
 ![Markdown example](https://github.com/TUDelft-MUDE/source-files/raw/main/file/markdown_table.png)
 
-% WRITE YOUR MARKDOWN HERE
 
+|Language   |Difficulty  |Use Case                 |Popularity  |
+|:---------:|:----------:|:-----------------------:|:----------:|
+|Python     |Beginner    |Data Science, Web Dev    |⭐⭐⭐⭐⭐|
+|JavaScript |Beginner    |Web Development          |⭐⭐⭐⭐⭐|
+|C++        |Advanced    |System programming        |  ⭐⭐⭐   |
+|R          |Intermediate|Statistics, Data Analysis|  ⭐⭐⭐   |
 
 > By Tom van Woudenberg, Delft University of Technology. CC BY 4.0, more info [on the Credits page of Workbook](https://mude.citg.tudelft.nl/workbook-2025/credits.html).
